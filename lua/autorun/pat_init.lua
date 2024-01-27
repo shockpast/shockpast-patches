@@ -12,8 +12,8 @@ if SERVER then
   AddCSLuaFile("patches/cl_patches.lua")
 
   include("patches/sh_patches.lua")
-  include("patches/sv_patches.lua")
   include("patches/cl_patches.lua")
+  include("patches/sv_patches.lua")
 end
 
 if CLIENT then
